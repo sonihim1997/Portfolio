@@ -1,0 +1,67 @@
+/* h1{
+    color: rgb(30, 0, 255);
+}
+body{
+    background-color: black;
+}
+p{
+    background-color :violet;
+}
+button{
+    color: black;
+}
+button{
+    background-color: whitesmoke;
+} */
+
+
+
+
+
+
+
+/* *{
+    color: blue;
+}
+h1{
+    color: indigo;
+} */
+/* button{
+    color: darkblue;
+}
+/* #heading1{
+  color: cadetblue;  
+}
+#heading2{
+    color: burlywood;
+} */
+/* .myClass1{
+    color: darkgray;
+}
+.myClass2{
+    color: cornflowerblue;
+} */
+
+/* p{
+  text-align: start;  */
+  /* #Right And Start are Same In text-align */
+/* } */
+ h1{
+    text-align: center; 
+    text-decoration:violet dotted underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    
+/* } */
+/* a{
+    text-decoration: none;
+/* } */
+/* #h1{
+    font-weight: 300;
+}
+#h2{
+    font-weight: 500;
+}
+#h3{
+    font-weight: 250;
+} */ */

@@ -1,0 +1,198 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins",sans-serif;
+}
+
+.header{
+      position: fixed;
+ 
+      width: 100%;
+      padding: 1.3rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+}
+
+.header::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(90deg, transparent,rgba(255,255,255,.4),transparent);
+   transition: .5s;
+}
+
+.header:hover::after{
+   left: 100%;
+}
+.logo{
+   
+     font-size: 2rem;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 700;
+     border: radius 2.5rem;
+} 
+
+.icons{
+   position: absolute;
+   right: 5%;
+   font-size: 2.8rem;
+   color: #fff;
+   cursor: pointer;
+   display: flex;
+}
+
+#check:checked~.navbar{
+   height: 17.7rem;
+}
+.navbar{
+   position:absolute;
+   top: 100%;
+   left:0;
+   width:100%;
+   height: 0;
+   background:rgba(0,0,0,.1);
+   backdrop-filter:blur(50px);
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   overflow: hidden;
+   transition: .3s ease;
+}
+.navbar a{
+   font-size: 1.15rem;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;     
+   margin-left: 2.5rem;
+   display: block;
+   font-size: 1.1rem;
+   margin: 1.5rem 0;
+   text-align: center;
+   transform: translateY(-50px);
+   opacity:0;
+   transition:  .3s ease;
+   }
+.icons #close-icon{
+   display:none;
+  }
+  
+  #check {
+   display: none;        
+  }
+  #check:checked~.icons #menu-icon{
+   display: none;
+   }
+  #check:checked~.icons #close-icon{
+   display: flex;
+   }
+   #check:checked~.navbar a{
+      transform: translateY(0);
+      opacity: 1;
+   }
+   #home{
+      min-height: 100vh;
+      padding-top: 200px;
+   background-color: #170a39f2;
+    /* background-image: url("../Images/Fish.jpg");     */
+    background-size: cover;
+    background-position: center;  
+   }
+   h1{
+      font-size: 40px;
+      margin-top: rem;
+      margin-left: 2rem;
+      height: 3rem;
+      color: rgb(183, 244, 244);
+  }
+  h1:hover{
+   color: #72a693;
+  }
+  h3{
+      margin-top: 0.rem;
+      font-size: 25px;
+      margin-left: 2rem;
+      bottom: 10rem;
+      height: 3rem;
+      width: 20rem;
+      font-style: italic;
+    
+  }
+  .text1{
+   margin-left: 5rem;
+   margin-top: 2.5rem;
+   color: rgb(248, 252, 252);
+   justify-content: center;
+   transition:  .10s ease;
+   font-size: 25px;
+  }
+  .btn{
+   margin-top: 0.75rem;
+   margin-left: 4rem;
+   height: 2rem;
+   width: 6rem;
+   background-color: #72a693;
+   border-radius: 40px;
+ }
+ .btn:hover{
+   background-color: aquamarine;
+     color: rgb(32, 30, 30);
+ }
+  .text2{
+   margin-top: 2.5rem;
+   justify-items: center;
+  }
+
+  .about{
+   min-height: 100vh;
+   padding-top: 10rem;
+background-color: #5f3d2cf2;
+ /* background-image: url("../Images/Fish.jpg");     */
+ background-size: cover;
+ background-position: center;  
+}
+.about h1{
+   text-align: center;
+   text-decoration: underline;
+}
+
+.gallery{
+   min-height: 100vh;
+   padding-top: 200px;
+background-color: #170a39f2;
+ /* background-image: url("../Images/Fish.jpg");     */
+ background-size: cover;
+ background-position: center;  
+}
+
+.service{
+   min-height: 100vh;
+   padding-top: 200px;
+background-color: #5f3d2cf2;
+ /* background-image: url("../Images/Fish.jpg");     */
+ background-size: cover;
+ background-position: center;  
+}
+.contactus{
+   min-height: 100vh;
+   padding-top: 200px;
+   background-color: #170a39f2;
+ /* background-image: url("../Images/Fish.jpg");     */
+ background-size: cover;
+ background-position: center;  
+}
+  /* BREAKPOINTS */
+  @media(max-width:992px){
+     .header{
+        padding: 1.3rem 5%;
+     }
+  }
+  @media(max-width:768px){
+     .icons{
+        display: inline-flex;
+     }
+  } 

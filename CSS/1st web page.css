@@ -1,0 +1,66 @@
+div{
+    line-height: 2;
+}
+.sign{
+    color:white;
+    font-family: "Butterfly Kids", cursive;
+       /* border-style: dotted ; */
+       border-style: solid;
+       border-width: 5px;
+       border-radius: 50px;
+       background-color: blue;
+           /* margin-top: 25px;
+       margin-left: 50px;
+       margin-right: 50px;
+       margin-bottom: 100px; */
+              /* This Is Shortcut Method On Margin Set */
+       /* margin: 25px 50px 100px 50px */
+
+
+       /* margin-top: auto;
+       padding-top: 2px;
+       padding-bottom: 3px;
+       padding-right: 2px;
+       padding-left: 2px; */
+            /* This Is Shortcut Method On Padding Set */
+       padding: auto 2px 2px 3px 2px;
+       text-align: center;
+       font-size: xx-large;
+}
+h6{
+    font-family: "Butterfly Kids", cursive ;
+}
+button{
+    margin-top:10px;
+}
+/* .middlename{
+    margin-right: 10px;
+} */
+.firstname{
+    margin-left: 5px;
+}
+h1{
+    border: 5px solid black;
+}
+.dob{
+    align-items: center;
+}
+body{
+    background-repeat: repeat;
+    /* background-size: 50%; */
+    background-attachment: fixed;
+    background-color:aquamarine;
+     background-image: url("../Images/B1.jpg");
+} 
+.abc{
+    text-align: center;
+    margin-right:20rem;
+    margin-bottom: 0.20rem;
+    margin-top: 1rem;
+}
+.xyz{
+   color: white;
+}
+.home{
+    color: violet;
+}
